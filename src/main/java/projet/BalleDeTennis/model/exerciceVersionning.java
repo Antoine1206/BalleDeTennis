@@ -9,6 +9,11 @@ public class exerciceVersionning {
     private Long age;
     private Date dateNaissance;
 
+    public exerciceVersionning(Long id, Long age, Date dateNaissance) {
+        this.id = id;
+        this.age = age;
+        this.dateNaissance = dateNaissance;
+    }
 
     public Date getDateNaissance() {
         return dateNaissance;
